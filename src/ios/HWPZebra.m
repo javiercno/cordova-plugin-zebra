@@ -1,13 +1,13 @@
 #import "HWPHello.h"
 
-@implementation HWPHello
+@implementation HWPZebra
 
 - (void)greet:(CDVInvokedUrlCommand*)command
 {
 
     NSString* callbackId = [command callbackId];
     NSString* name = [[command arguments] objectAtIndex:0];
-    NSString* msg = [NSString stringWithFormat: @"Hello, %@", name];
+    NSString* msg = [NSString stringWithFormat: @"Zebra, %@", name];
 
     CDVPluginResult* result = [CDVPluginResult
                                resultWithStatus:CDVCommandStatus_OK

@@ -1,45 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
-        id="com.example.hello"
-        version="0.7.0">
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="com.printer.zebra"
+        version="0.1.0">
 
-  <name>Hello</name>
+  <name>Zebra</name>
+  <description>Zebra Printer Plugin</description>
+  <license>Apache 2.0</license>
+  <keywords>cordova, bluetooth, printer, Zebra</keywords>
 
-  <engines>
-    <engine name="cordova" version=">=3.4.0"/>
-  </engines>
+  <asset src="www/zebra.js" target="js/zebra.js"/>
 
-  <asset src="www/hello.js" target="js/hello.js"/>
-
-  <js-module src="www/hello.js" name="hello">
-    <clobbers target="hello" />
+  <js-module src="www/zebra.js" name="zebra">
+    <clobbers target="zebra" />
   </js-module>
-
-  <platform name="android">
-
-    <config-file target="res/xml/config.xml" parent="/*">
-      <feature name="Hello">
-        <param name="android-package" value="com.example.plugin.Hello"/>
-      </feature>
-    </config-file>
-
-    <source-file src="src/android/Hello.java" target-dir="src/com/example/plugin/"/>
-  </platform>
 
   <platform name="ios">
     
-    <config-file target="config.xml" parent="/widget">
-      <feature name="Hello">
-        <param name="ios-package" value="HWPHello" />
+    <config-file target="config.xml" parent="/*">
+      <feature name="Zebra">
+        <param name="ios-package" value="HWPZebra" />
       </feature>
     </config-file>
 
-    <header-file src="src/ios/HWPHello.h" target-dir="HelloPlugin"/>
-    <source-file src="src/ios/HWPHello.m" target-dir="HelloPlugin"/>
-  </platform>
-
-  <platform name="wp7">
-    <source-file src="src/wp7/Hello.cs"/>
+    <header-file src="src/ios/ZebraPlugin.h" target-dir="ZebraPlugin"/>
+    <source-file src="src/ios/ZebraPlugin.m" target-dir="ZebraPlugin"/>
   </platform>
 
 </plugin>

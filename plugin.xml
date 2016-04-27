@@ -1,29 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-        id="com.printer.zebra"
-        version="0.1.0">
-
-  <name>Zebra</name>
-  <description>Zebra Printer Plugin</description>
+        id="cordova-plugin-zebra" version="0.2.3">
+  <name>Printer Zebra Plugin</name>
+  <description>Cordova Printer Zebra Plugin</description>
   <license>Apache 2.0</license>
-  <keywords>cordova, bluetooth, printer, Zebra</keywords>
-
-  <asset src="www/zebra.js" target="js/zebra.js"/>
-
+  <keywords>printer,zebra</keywords>
   <js-module src="www/zebra.js" name="zebra">
     <clobbers target="zebra" />
   </js-module>
-
   <platform name="ios">
-    
     <config-file target="config.xml" parent="/*">
-      <feature name="Zebra">
-        <param name="ios-package" value="HWPZebra" />
+      <feature name="Device">
+        <param name="ios-package" value="Zebra"/>
       </feature>
     </config-file>
-
-    <header-file src="src/ios/HWPZebra.h" target-dir="ZebraPlugin"/>
-    <source-file src="src/ios/HWPZebra.m" target-dir="ZebraPlugin"/>
+    <header-file src="src/ios/Zebra.h" />
+    <source-file src="src/ios/Zebra.m" />
   </platform>
-
 </plugin>

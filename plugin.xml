@@ -22,8 +22,8 @@
       </feature>
     </config-file>
 
-    <header-file src="src/ios/ZebraPlugin.h" target-dir="ZebraPlugin"/>
-    <source-file src="src/ios/ZebraPlugin.m" target-dir="ZebraPlugin"/>
+    <header-file src="src/ios/HWPZebra.h" target-dir="ZebraPlugin"/>
+    <source-file src="src/ios/HWPZebra.m" target-dir="ZebraPlugin"/>
   </platform>
 
 </plugin>

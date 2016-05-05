@@ -16,6 +16,5 @@
     </config-file>
     <header-file src="src/ios/Zebra.h" />
     <source-file src="src/ios/Zebra.m" />
-    <source-file src="src/ios/sdk/libZSDK_API.a" framework="true" />
   </platform>
 </plugin>

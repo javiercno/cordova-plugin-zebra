@@ -24,6 +24,13 @@
     <header-file src="src/ios/sdk/include/FormatUtil.h" />
     <header-file src="src/ios/sdk/include/GraphicsUtil.h" />
     <header-file src="src/ios/sdk/include/MagCardReader.h" />
+    <header-file src="src/ios/sdk/include/MfiBtPrinterConnection.h" />
+    <header-file src="src/ios/sdk/include/NetworkDiscoverer.h" />
+    <header-file src="src/ios/sdk/include/PrinterStatus.h" />
+    <header-file src="src/ios/sdk/include/PrinterStatusMessages.h" />
+    <header-file src="src/ios/sdk/include/SDG.h" />
+    <header-file src="src/ios/sdk/include/SmartCardReader.h" />
+    <header-file src="src/ios/sdk/include/TcpPrinterConnection.h" />
     <header-file src="src/ios/sdk/include/ToolsUtil.h" />
     <header-file src="src/ios/sdk/include/ZebraErrorCode.h" />
     <header-file src="src/ios/sdk/include/ZebraPrinter.h" />

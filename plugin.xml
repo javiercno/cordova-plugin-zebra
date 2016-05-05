@@ -16,5 +16,20 @@
     </config-file>
     <header-file src="src/ios/Zebra.h" />
     <source-file src="src/ios/Zebra.m" />
+
+    <header-file src="src/ios/sdk/include/DiscoveredPrinter.h" />
+    <header-file src="src/ios/sdk/include/DiscoveredPrinterNetwork.h" />
+    <header-file src="src/ios/sdk/include/FieldDescriptionData.h" />
+    <header-file src="src/ios/sdk/include/FileUtil.h" />
+    <header-file src="src/ios/sdk/include/FormatUtil.h" />
+    <header-file src="src/ios/sdk/include/GraphicsUtil.h" />
+    <header-file src="src/ios/sdk/include/MagCardReader.h" />
+    <header-file src="src/ios/sdk/include/ToolsUtil.h" />
+    <header-file src="src/ios/sdk/include/ZebraErrorCode.h" />
+    <header-file src="src/ios/sdk/include/ZebraPrinter.h" />
+    <header-file src="src/ios/sdk/include/ZebraPrinterConnection.h" />
+    <header-file src="src/ios/sdk/include/ZebraPrinterFactory.h" />
+    <header-file src="src/ios/sdk/include/ZplPrintMode.h" />
+    <source-file src="src/ios/sdk/libZSDK_API.a" framework="true" />
   </platform>
 </plugin>

@@ -37,6 +37,6 @@
     <header-file src="src/ios/sdk/include/ZebraPrinterConnection.h" />
     <header-file src="src/ios/sdk/include/ZebraPrinterFactory.h" />
     <header-file src="src/ios/sdk/include/ZplPrintMode.h" />
-    <source-file src="src/ios/sdk/libZSDK_API.a" framework="true" />
+    <source-file src="src/ios/sdk/libZSDK_API.a" custom="true" />
   </platform>
 </plugin>

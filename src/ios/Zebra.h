@@ -17,11 +17,9 @@
  under the License.
  */
 
-#import <UIKit/UIKit.h>
-#import <Cordova/Zebra.h>
+#import <Cordova/CDV.h>
 
 @interface Zebra : CDVPlugin
-{}
 
 - (void)print:(CDVInvokedUrlCommand*)command;
 
